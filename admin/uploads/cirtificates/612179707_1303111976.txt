@@ -1,0 +1,9 @@
+after registration login should be automatically done.
+status should be given when it is automatically 
+when electricity has gone then pause should be done and store on db so that furtherly it can resume again.
+in view result all question and given answer should be displayed.
+answer must be detected.
+elasped time should be checked when page reloaded.
+sorting order should be done by recent update.
+whenever a value entered on some portion then it should be checked.
+On title link there is should be a link for viewing all page.

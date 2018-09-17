@@ -1,0 +1,60 @@
+/* 
+    Document   : style
+    Created on : 27-Aug-2010, 01:16:53
+    Author     : Anwar
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+ul.slideshow {
+    list-style:none;
+    width:820px;
+    height:300px;
+    overflow:hidden;
+    position:relative;
+    margin:0;
+    padding:0;
+}
+
+ul.slideshow li {
+    position:absolute;
+    left:0;
+    right:0;
+}
+
+ul.slideshow li.show {
+    z-index:500;
+}
+
+ul img {
+    border:none;
+}
+
+
+#slideshow-caption {
+    width:300px;
+    height:100px;
+    position:absolute;
+    bottom:0;
+    left:520px;
+    color:#fff;
+    background:#000;
+    z-index:500;
+}
+
+#slideshow-caption .slideshow-caption-container {
+    padding:5px 10px;
+    z-index:500;
+}
+
+#slideshow-caption h3 {
+    margin:0;
+    padding:0;
+    font-size:20px;
+}
+
+#slideshow-caption p {
+    margin:5px 0 0 0;
+    padding:0;
+}
+

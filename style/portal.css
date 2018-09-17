@@ -1,0 +1,58 @@
+/* 
+    Document   : portal
+    Created on : 18-Oct-2010, 12:02:51
+    Author     : Anwar
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+.login_bg{background:#bdc5d4;width:450px;height:250px;margin:20px auto;border:2px solid #1399E4;-moz-border-radius:10px;-webkit-border-radius:10px;padding:10px;}
+.login_bg .login_box{background:#fff;height:210px;-moz-border-radius-bottomleft:10px;-moz-border-radius-bottomright:10px;-webkit-border-radius:10px;}
+.login_bg .login_box .img{text-align:center;padding:10px 0;}
+.login_bg .login_box table{margin:0 auto;padding:10px;}
+.login_bg table th{text-align:right;width:80px;font-weight:normal;}
+.login_bg .login_box table span{display:block;color:#f00;font-style:italic;}
+.login_bg .login_box table td,.login_bg .login_box table th{padding:2px 5px;vertical-align:top;}
+
+.table_content{background:#ebf7f9;border:1px solid #a6c9e2;-moz-border-radius:4px;padding:5px;margin:10px 0;}
+.table_content  table{background:#fff;border:1px solid #bdc5d4;padding:5px;width:100%;-moz-border-radius:4px;}
+.table_content  table td{padding:5px!important;}
+.table_content  table th{padding:5px;}
+.table_content  table a{color:#0000d5;}
+.table_content  table tr.title{background:#6ea7d1 url("../images/title.png") repeat-x scroll 50% 50%;color:#fff;text-transform:capitalize;}
+.table_content  table tr.title th{padding:6px;}
+.table_content  table tr th{text-align:center;}
+.table_content  table tr.odd{background:#E5E5E5;}
+.table_content  table tr.even{background:#D5D5D5;}
+.table_content  table tr.even:hover,.table_content  table tr.odd:hover{background:#c5d5ec;}
+.table_content  table tr.sub_cat{background:#bdc5d4;}
+.table_content  table tr td.links{text-align:center;}
+.table_content  table tr td.links a{background:#29447E;padding:3px 10px;border:1px solid #60A700;color:#fff;-moz-border-radius:4px;-webkit-border-radius:4px;}
+.table_content  table tr td.links a:hover{background:#60A700 url('../images/pag_bg.gif') repeat-x;border:1px solid #459301;text-decoration:none;}
+.table_content  table tr.hover{background:#CCFFCC;}
+.table_content  table tr td.links a.edit{background:url('../images/edit.png') 0 50% no-repeat;padding-left:17px;}
+.table_content table th.green{background:green;color:#f00;}
+.table_content table th.pink{background:#2cae53;}
+.table_content table th.red{background:red;color:#fff;}
+.table_content table th.yellow{background:yellow;}
+
+.form_content{font-size:10pt;background:#ebf7f9;text-align:left;padding:10px;border:1px solid #a6c9e2;;width:680px;margin:0 auto;-moz-border-radius:6px;-webkit-border-radius:6px;margin-bottom:20px;}
+.form_content fieldset {font-weight:bold;}
+.form_content table{width: 100%;}
+.form_content h3{padding:0;;margin:10px 0;font-family:Verdana;font-size:10pt;}
+.form_content table th,.form_content table td{vertical-align:top;padding:2px 5px;}
+.form_content table th{text-align:right;width:150px;font-weight:normal;color:#2E6E9E;}
+.form_content table td span{color:#f00;font-style:italic;display:block;font-size:8pt;}
+.form_content table td label{display:block;margin:2px 0;font-style:italic;}
+.form_content table th .req_mark{color:#f00!important;font-size:7pt!important;}
+.form_content h2{margin:0;padding:0;font-weight:normal;}
+.form_content select{padding:0.4em;}
+
+.view_links{text-align:center;width:100px;}
+.view_links a{width:20px; height:15px;display:inline-block;}
+.view_links a.print_link{background:url('../images/print.png') 50% 50% no-repeat;}
+

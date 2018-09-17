@@ -1,0 +1,1 @@
+ <?=common::get_left_menu_ul($menu_id)?>

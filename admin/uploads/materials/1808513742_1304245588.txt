@@ -1,0 +1,22 @@
+ $this->load->library('pagination');
+        $start = $this->uri->segment(3);
+        if ($start == '') {
+            $start = 0;
+        }
+        $config['uri_segment'] = 3;
+        $config['base_url'] = site_url('pages/index/');
+        $config['total_rows'] = count($this->mod_pages->my_pages());
+        $config['per_page'] = 5;
+        $config['next_link'] = "Next &raquo;";
+        $config['prev_link'] = "&laquo; Previous";
+        $this->pagination->initialize($config);
+        $data['pagination_links'] = $this->pagination->create_links();
+
+        $data['page_rows'] = $this->mod_pages->my_pages("limit $start,{$config['per_page']}"); //Don't Change
+        if (count($data['page_rows']) > 0) {
+            $data['start'] = $start + 1;
+        } else {
+            $data['start'] = $start;
+        }
+        $data['end'] = $start + count($data['page_rows']);
+        $data['total'] = $config['total_rows'];

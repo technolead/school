@@ -1,0 +1,80 @@
+$lang['label_change_password']="Change Password";
+$lang['label_change_password_para']="Go to \"My Royalbidz\" and click \"Change Password\". Then follow the on-screen instructions.";
+
+$lang['label_forgot_user_pass']="Forgot Password or Username?";
+$lang['label_forgot_user_pass_para']="Click the \"Forgot Password?\" link under the login and follow the on-screen instructions. When you reset your password, the email will display your username. From here you will click a link to reset your password";
+
+$lang['label_newsletter_subscription_un']='Subscribe/Unsubscribe From the Newsletter';
+$lang['label_newsletter_subscription_un_para']="Go to \"My Royalbidz,\" click \"My Information,\" and click either the \"Add Me\" or the \"Remove Me\" link next to the newsletter.";
+
+
+$lang['label_change_add_address']="Change or Add New Address";
+$lang['label_change_add_address_para']="Go to \"My Royalbidz,\" click on \"My Information\" or click here. This page allows you to change your shipping or billing addresses along with other account information.";
+
+$lang['label_change_email']="Change Email Address";
+$lang['label_change_email_para']="In order to change your email address, please contact support@Royalbidz.com, and we will be happy to make this change.";
+
+$lang['label_where_can_check']="Where can I check my Bids Account?";
+$lang['label_where_can_check_para']=" Go to \"My Royalbidz\" and visit the Bids Account section. Here you will find a breakdown of Voucher Bids and Real Bids. Voucher Bids are bids that were given to you by promotion or if you won a Bid Voucher or if you chose to use the Buy It Now on a Bid Voucher. All Voucher Bids have an expiration date. Real Bids are the Bid Packs that you purchase for $0.60 per bid.";
+
+$lang['label_change_username']="Change Username";
+$lang['label_change_username_para']="Unfortunately, your username cannot be changed. When registering, please avoid choosing a username that could offend other users as your username will be visible to other users. If you notice a username that is too offensive, please contact our Customer Service team, and we will work on changing it.";
+
+$lang['label_what_is_avatar']="What is an Avatar?";
+$lang['label_what_is_avatar_para']="An avatar is an image that is used to represent a user’s account. We have lots of fun icons that you can choose from to represent who you are! To choose an avatar for yourself go to ‘My Royalbidz’ and look at the right side of the screen in the balloon titled ‘My Avatar’, click and choose the image that best suits you, and remember to have fun with it!";
+
+$lang['label_chnage_name']="Change Name";
+$lang['label_chnage_name_para']="Please contact our Customer Service team if your name has changed.";
+
+$lang['label_how_many_auctions_won']="Where can I check how many auctions I have won?";
+$lang['label_how_many_auctions_won_para']="Go to \"My Royalbidzauctions wonclick \"Won Auctions\" or by clicking here.";
+
+$lang['label_deactivate_account_para']="We're sorry to hear you want to leave us! If you have a concern you wish to address before deactivating your account, please contact support@Royalbidz.com, and we will do anything we can to make your experience at Royalbidz more enjoyable. If you still wish to cancel your account, please proceed below.Go to \"My Royalbidz,\label_auctions\" click \"Deactivate Account.\" Then follow the on-screen instructions.";
+
+
+$lang['label_auction_type']="Auction Type";
+$lang['label_auction_penny']="Penny Auction";
+$lang['label_auction_penny_para']="The final price will increase by $.01 each time that a bid is placed.  Each time someone clicks on an item to bid cost of the item increase to $0.1 time.  (Two cents)                                                                                                                                                                                                 ";
+
+$lang['label_2cents_auctions']="2 Cent Auction";
+$lang['label_2cents_auctions_para']="The final price will increase by $.02 each time that a bid is placed.  Each time someone clicks on an item to bid the cost of the item increase to $0.2. (Two cents)";
+
+$lang['label_what_after_win']="What to Do After You Win an Auction?";
+$lang['label_what_after_win_para']="Congratulations!
+First, you will confirm and pay for your winning auction item. When the auction ends, you will be re-directed to a page where you'll be asked to confirm that you won the item. This page also provides details on how to pay for the auction item. Royal Bidz will ask for payment and shipping information after every auction regardless if it is your first win or 60th win. Once you confirm and pay for item, we’ll confirm your payment via email and ship your item to you. If the item hasn’t arrived within 10 days of our confirmation of your payment, please contact us at support@royalbidz.com
+You must confirm and pay for your win within 5 days after the auction has ended. If you don't confirm within this time frame, we will assume you no longer want the item.
+";
+
+$lang['label_aution_limits']="Auction Limits";
+$lang['label_aution_limits_para']="Only ONE account per customer
+
+There is no Limit on Bids per person. You can bid as many times as you.
+
+We incorporate the no limits bids leisure in orderensures everyone gets opportunity to bid on or winthe items that they want.  We want everyone at Royal Bidz to save BIG and have A Blast!
+
+";
+
+$lang['label_when_an_auction_ends']="When Does and Auction End?";
+$lang['label_when_an_auction_ends_para']="Each auction ends when the timer reaches zero on the Royal Bidz servers.";
+
+
+$lang['label_why_auction_clock']="Why is Time Added to the Auction Clock?";
+$lang['label_why_auction_clock_para']="We add time to clock every time a user places a bid. This gives enough time for someone else to make the decision to bid if they are interested which is similar to the “Going once, Going twice, SOLD!” approach of traditional auctions.
+The amount of time that will be added to the auction timer varies depending on the particular auction in increments of 10seconds. This incrementis made aware by the label that is located on every auction page to the left of the timer.
+Can I Bid If I Live Outside the US?  (Pendinghas to look into this)
+Unfortunately, we currently only operate in the United States (50 States and Washington DC). We are looking to expand globally in the near future. We apologize for the inconvenience, and we hope you will check back with us soon!
+";
+
+$lang['label_how_redeeem']="How Can I Redeem Coupons?";
+$lang['label_how_redeeem_para']="Occasionally, Royal Bidz will give coupons away to make the items even cheaper for you! To redeem these coupon";
+
+$lang['label_how_watch']="How Can I Watch an Auction?";
+$lang['label_how_watch_para']="If you see an auction you want to watch, you may click \"Add Auction to Watch list\" located in the “MY BIDZ” section of the website.
+What's the Difference Between the Auction Ending Price and the Value Price?
+";
+
+$lang['label_auction_end_price']="Auction End price";
+$lang['label_auction_end_price_para']="The auction end price is the price of the auction item when the timer reaches zero. The winner will purchase the auction item for that price. ";
+
+$lang['label_value_price']="Value price";
+$lang['label_value_price_para']="The value price is listed as an indication of the market value of the product.";

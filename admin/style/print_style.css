@@ -1,0 +1,36 @@
+/*
+    Document   : style
+    Created on : 30-January-2010, 22:53:41
+    Author     : Anwar
+    Description:
+        Purpose of the stylesheet follows.
+*/
+h1{margin:0;padding:0;padding-bottom:10px;font-size:16pt;font-weight:normal;}
+h3{margin:0;padding:0;padding-bottom: 5px;}
+.doc_wrapper{border:1px solid #ddd;width:750px;margin:0 auto;padding:10px;font-size:9pt;}
+.doc_wrapper table{width:100%;}
+.header_wrapper{text-align:center;border-bottom:1px solid #ddd;padding:10px 0;margin-bottom:10px;}
+.header_wrapper h1{margin:0;padding:0;font-size:18pt;}
+.header_wrapper h3{margin:0;padding:0;font-size:15pt;font-weight:normal;}
+.form_content{margin-bottom:10px;}
+.form_content table{border:1px solid #333;}
+.form_content table td,.form_content table th{border-bottom:1px solid #333;padding:2px 5px;vertical-align:top;}
+.form_content table th{border-right:1px solid #333;width:200px;text-align:left;}
+.form_content legend{font-size:11pt;font-weight:bold;}
+
+.print{border:1px solid #dedede;background:url('../images/print.png') 4px 50% no-repeat;padding:4px 10px;padding-left:20px;cursor:pointer;font-weight:bold;margin-top:10px;}
+.table_content{margin-bottom:10px;}
+.table_content table{border:1px solid #333;}
+.table_content table td,.table_content table th{border-bottom:1px solid #333;border-right:1px solid #333;padding:2px 5px;vertical-align:top;}
+.table_content table th{}
+.table_content legend{font-size:11pt;font-weight:bold;}
+.pagination_links{text-align:center;margin:5px 0;border:1px solid #bdc5d4;background:#fff;padding:10px 5px;font-family:verdana;font-size:9pt;}
+
+.txt_right{text-align:right;}
+.fl_left{float:left;}
+.fl_right{float:right;}
+.clear{clear:both;}
+.width_300{width:370px;}
+.block{display:block;}
+.border_right{border-right:1px solid #333;}
+.txt_center{text-align: center;}

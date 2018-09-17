@@ -1,0 +1,31 @@
+//view_std_reg
+-------------------------------------------------------------------------------------------------------------
+SELECT s.student_id,s.user_name,concat(s.first_name,' ',s.last_name) as student_name,s.email,s.student_status,
+        p.program_code,p.program_name,rs.programs_id,
+        l.level_code,l.level_name,l.levels_id,
+        rs.semester_id,sm.semester_name,rs.enrolment_date,rs.semester_status,rs.semester_status_date,rs.is_recent,
+        rs.staffs_id,concat(st.first_name,' ',st.last_name) as tutor_name FROM student as s
+        join reg_semester as rs on rs.student_id=s.student_id
+        join semester as sm on sm.semester_id=rs.semester_id
+        join programs as p on p.programs_id=rs.programs_id
+        join levels as l on l.levels_id=rs.levels_id
+        join staffs as st on st.staffs_id=rs.staffs_id
+
+//view_attd
+------------------------------------------------------------------------
+SELECT student_id, date, sum( attendance ) AS attendance
+FROM `std_attendance`
+WHERE 1
+GROUP BY student_id, date
+ORDER BY `std_attendance`.`date` ASC , student_id ASC;
+// view_std_attd
+-------------------------------------------------------------------------------
+SELECT sa.student_id, s.user_name,ct.type_name,ma.class_type_id, m.module_name,m.module_code, ma.module_id,ma.semester_id,ma.levels_id,
+sum( sa.attendance) AS present, sum( sa.leave_excuse ) AS total_leave,(count( ma.module_attendance_id )-sum( sa.attendance )-sum( sa.leave_excuse )) as absent,count( ma.module_attendance_id ) AS total_class,sum( sa.attendance)/count( ma.module_attendance_id )*100 as percentage
+FROM `std_attendance` AS sa
+JOIN student AS s ON s.student_id = sa.student_id
+JOIN module_attendance AS ma ON ma.module_attendance_id = sa.module_attendance_id
+JOIN module AS m ON m.module_id = ma.module_id
+JOIN conf_type AS ct ON ct.type_id = ma.class_type_id
+WHERE 1=1
+GROUP BY student_id, ma.module_id,ma.class_type_id,ma.semester_id,ma.levels_id order by m.module_name
